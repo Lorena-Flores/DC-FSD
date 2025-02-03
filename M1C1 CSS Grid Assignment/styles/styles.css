@@ -1,0 +1,124 @@
+.gridOne {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-items: start;
+    background-color: #f0f0f0;
+    width: 35vw;
+    padding-left: 0.75em;
+    font-weight: 550;
+ }
+
+ .gridTwo {
+   display: grid;
+   grid-template-columns: 1fr 1fr 2fr;
+   background-color: white; 
+   width: 35vw;
+   padding-left: 0.75em;
+   padding-right: 0.75em;
+   font-weight: 550;
+   margin-top: 1rem; /*Little space at the top (between grids) to visualize better*/
+}
+
+.child-red {
+   background-color: red; 
+}
+
+.child-blue {
+   background-color: blue;
+}
+
+.child-yellow {
+   background-color: yellow; 
+}
+
+.gridThree {
+   display: grid;
+   grid-template-rows: 1fr 3fr; 
+   background-color: #d0d0d0; 
+   width: 500px; 
+   height: 300px; 
+   font-weight: 550;
+   margin-top: 1rem; /*Little space at the top (between grids) to visualize better*/
+}
+
+.child-title {
+   background-color: #f0f0f0;
+   padding: 5px;
+}
+
+.child-ice {
+   background-color: #f0f0f0;
+   padding: 5px; 
+}
+
+.child-ice img {
+   width: 500px; 
+   height: 225px; 
+   object-fit: cover; /* Adjust the image without distortion */
+}
+
+.gridFour {
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   background-color: rgb(2, 103, 2);
+   width: 510px;
+   font-weight: 550;
+   margin-top: 1rem; /*Little space at the top (between grids) to visualize better*/
+}
+
+.child-green {
+   padding: 0px;
+}
+
+#child-green-ID {
+   display: grid;
+   grid-template-columns: 1fr 1fr; 
+   background-color: rgb(2, 103, 2);
+   padding: 10px;
+} 
+
+#child-green-ID p {
+   margin: 0;
+   padding: 5px; 
+}
+
+.gridFive {
+   display: grid;
+   grid-template-rows: 1fr 1fr;
+   background-color: #f0f0f0;
+   width: 510px; 
+   font-weight: 550;
+   margin-top: 1rem; /*Little space at the top (between grids) to visualize better*/
+}
+
+.winter {
+   background-color: #f0f0f0;
+   padding: 10px; 
+}
+
+#winter-ID {
+   display: grid;
+   grid-template-columns: 2fr 1fr;
+   background-color: #f0f0f0; 
+   padding: 10px; 
+}
+
+#winter-ID img {
+   width: 200px; 
+   height: 200px;
+   object-fit: cover; /* Adjust the image without distortion */
+}
+
+.gridSix {
+   display: grid;
+   grid-template-columns: 1fr 3fr;
+   background-color: rgb(164, 163, 163); 
+   width: 500px; 
+   align-items: center; 
+   font-weight: 800;
+   margin-top: 1rem; /*Little space at the top (between grids) to visualize better*/
+}
+
+.google-font {
+   font-family: 'Roboto', sans-serif;
+}
